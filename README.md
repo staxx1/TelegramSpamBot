@@ -1,6 +1,6 @@
 # TGUserbot
 
-Installazione
+Install
 -------------
 	apt-get -y install php php-mbstring php-xml php-gmp php-curl php-mcrypt php-bcmath
     curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/bin --filename=composer
@@ -9,19 +9,18 @@ Installazione
 	composer update
 	
 
-Configurazione
+Config
 ---------------
-Apri il file `.env` e sostituisci `+390123456789` col numero di telefono.
-E' consigliato [creare](https://my.telegram.org) l'api_id e l'api_hash.
-Per "personalizzare" il bot modifica `bot.php`
+Open ".env" file and replace "+ 390123456789" with your phone number.
+Recommended api_id and api_hash [creation] (https://my.telegram.org).
+Bot changes "bot.php" to "customize"
 
-
-Comandi
+Comand
 -------
     .spam
 
 
-Avvio
+Start
 -----
 	php start.php
 
